@@ -1,0 +1,46 @@
+*{
+    padding: 0;
+     margin: 0;
+ }
+
+ img{
+    width: 200px;
+}
+
+footer{
+    background-color: aqua;
+    padding: 65px;
+}
+
+#slogan{
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}
+
+input{
+    margin-right: -700px;
+}
+
+
+#dia1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+#dia2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+#dia3{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+}
+
+a{
+    margin: 1000px;
+}

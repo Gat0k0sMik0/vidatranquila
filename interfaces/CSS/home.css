@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+     margin: 0;
+ }
+
+ img{
+    width: 200px;
+}
+
+
+input{
+    margin-top: 50px;
+    margin-left: 120px;
+    height: 100px;
+    width: 200px;
+    margin-bottom: 40px;
+    cursor: pointer;
+    color: aquamarine;
+}
+
+.contenedor{
+display: grid;
+padding: 40px;
+background-color: gray;
+background-size: cover;
+justify-content: center;
+}
+
+
+h1{
+    font-size: 50px;
+}
+
+p{
+    font-size: 30px;
+}
+
+.jubilado{  
+  width: 400px;
+  margin-left: 800px;
+  margin-top: -150px;
+}
+
+h2{
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+footer{
+    background-color: aqua;
+    padding: 65px;
+}
+
+#slogan{
+    font-size: 20px;
+    display: flex;
+   justify-content: center;
+}

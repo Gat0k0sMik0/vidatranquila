@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+     margin: 0;
+ }
+
+ img{
+    width: 200px;
+}
+
+ footer{
+    background-color: aqua;
+    padding: 65px;
+
+    
+}
+
+#slogan{
+    font-size: 20px;
+    display: flex;
+  justify-content: center;
+}
+
+#desplegable {
+    width: 250px;
+    height: 50px;
+    grid-area: desplegable;
+}
+
+input{
+    width: 150px;
+    height: 50px;
+}
+
+#buscador{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "desplegable boton";
+    padding: 50px;
+    margin-left: 300px;
+}
+
+h2{
+   margin-left: 600px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+
