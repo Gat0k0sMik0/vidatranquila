@@ -7,37 +7,80 @@
     width: 200px;
 }
 
+
  footer{
+    display: flex;
+    justify-content: center;
     background-color: aqua;
     padding: 65px;
+   margin-top: 220px;
     
 }
 
 #slogan{
     font-size: 20px;
-    display: flex;
-  justify-content: center;
 }
 
 #desplegable {
     width: 250px;
     height: 50px;
-    grid-area: desplegable;
 }
 
 input{
     width: 150px;
     height: 50px;
+    margin-left: 10px;
+    
+}
+
+input:hover{
+   background-color: aqua;
+   cursor: pointer;
 }
 
 #buscador{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-areas: "desplegable boton";
-    padding: 50px;
-    margin-left: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: 50px;
+
 }
 
 h2{
-    margin-left: 450px;
+    margin-top: 50px;
+    margin-left: 550px;
 }
+
+nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#opciones{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    list-style: none;
+    padding: 20px;
+}
+
+li{
+    border: 2px solid black;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+li:hover{
+    background-color: aqua;
+}
+
