@@ -1,7 +1,17 @@
 *{
     padding: 0;
      margin: 0;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     
  }
+
+body{
+    background-image: url('../img/fondo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
  img{
     width: 200px;
@@ -11,14 +21,13 @@ footer{
     display: flex;
     justify-content: center;
     background-color: aqua;
-    padding: 65px;
-    margin-top: 225px;
-   
-    
+    padding: 20px;
+    margin-top: 240px;
 }
 
 #slogan{
     font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #desplegable {
@@ -37,6 +46,7 @@ input:hover{
 }
 
 
+
 #buscador{
     display: flex;
     flex-direction: row;
@@ -46,9 +56,11 @@ input:hover{
 }
 
 h2{
+    font-size: 50px;
     margin-top: 50px;
    display: flex;
    justify-content: center;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
@@ -63,23 +75,31 @@ nav{
       grid-template-columns: repeat(4, 1fr);
       list-style: none;
       padding: 20px;
+
   }
+
   
   li{
-      border: 2px solid black;
+      border-bottom: 2px solid black;
       height: 100px;
       width: 200px;
       display: flex;
       justify-content: center;
+      margin-left: 10px;
   }
   
   a{
       text-decoration: none;
-      font-size: 15px;
+      font-size: 25px;
       margin-top: 40px;
+      color: black;
   }
   
   li:hover{
       background-color: aqua;
+  }
+  
+  #volver{
+        margin-left: 50px;
   }
   

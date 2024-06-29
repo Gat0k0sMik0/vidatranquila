@@ -1,7 +1,16 @@
 *{
     padding: 0;
      margin: 0;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
  }
+
+ body{
+    background-image: url('../img/fondo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
  img{
     width: 200px;
@@ -9,7 +18,7 @@
 
  footer{
     background-color: aqua;
-    padding: 65px;
+    padding: 20px;
     
 }
 

@@ -1,7 +1,17 @@
 *{
     padding: 0;
      margin: 0;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   
  }
+
+ body{
+    background-image: url('../img/fondo2.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
  img{
     width: 200px;
@@ -10,29 +20,39 @@
 
 input{
     margin-top: 50px;
-    margin-left: 120px;
+    margin-left: 20px;
     height: 100px;
     width: 200px;
     margin-bottom: 40px;
     cursor: pointer;
-    color: aquamarine;
+    font-size: 25px;
+}
+
+input:hover{
+    background-color: aqua;
+}
+
+#botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 
 .contenedor{
-display: grid;
-padding: 40px;
-background-color: gray;
-background-size: cover;
+display: flex;
+flex-direction: column;
 justify-content: center;
+padding: 20px;
+margin-left: 100px;
 }
 
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 
 p{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .jubilado{  
@@ -49,7 +69,8 @@ h2{
 
 footer{
     background-color: aqua;
-    padding: 65px;
+    padding: 20px;
+    margin-top: 50px;
 }
 
 #slogan{
