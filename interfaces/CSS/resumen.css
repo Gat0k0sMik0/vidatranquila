@@ -1,47 +1,82 @@
-*{
+* {
     padding: 0;
-     margin: 0;
-     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
- }
+    margin: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
- body{
+body {
     background-image: url('../img/fondo2.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-
-}
-
- img{
-    width: 200px;
-}
-
- footer{
-    background-color: aqua;
-    padding: 20px;
-    
-}
-
-#slogan{
-    font-size: 20px;
     display: flex;
-  justify-content: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
 }
 
-#datos{
-    margin-left: 600px;
+#logo {
+    width: 200px;
+    margin-bottom: 20px;
 }
 
-h3, #importante{
+footer {
+    background-color:  rgb(190, 190, 190);
+    padding: 20px;
+    width: 97%;
+    margin-top: 90px;
+    text-align: center;
+}
+
+#slogan {
+    font-size: 20px;
+}
+
+.card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 400px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.card h3 {
     color: red;
+    margin: 0 0 10px;
 }
 
-input{
-    height: 50px;
-    width: 150px;
-    margin-left: 1000px;
-    margin-bottom: 50px;
+#importante {
+    color: red;
+    margin-bottom: 20px;
 }
 
+.card p {
+    margin: 10px 0;
+}
 
+.detalles {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 15px;
+    margin: 20px 0;
+}
 
+.cerrar-button {
+    background-color: rgb(226, 226, 226);
+    color: black;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.cerrar-button:hover {
+    background-color:  rgb(190, 190, 190);
+}

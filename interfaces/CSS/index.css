@@ -45,7 +45,7 @@ button{
 }
 
 button:hover{
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
 }
 
 img{
@@ -53,7 +53,7 @@ img{
 }
 
 footer{
-    background-color: aqua;
+    background-color:rgb(190, 190, 190);
     padding: 20px;
     margin-top:26px;
 }

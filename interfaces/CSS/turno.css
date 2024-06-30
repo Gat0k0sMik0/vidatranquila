@@ -20,29 +20,34 @@ body{
 footer{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
     padding: 20px;
-    margin-top: 240px;
+    margin-top: 150px;
 }
 
 #slogan{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 #desplegable {
     width: 250px;
     height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 input{
-    width: 150px;
+    width: 200px;
     height: 50px;
     margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 input:hover{
-    background-color: aqua;
+    background-color:rgb(190, 190, 190);
 }
 
 
@@ -53,6 +58,11 @@ input:hover{
     justify-content: center;
     align-items: flex-end;
     margin-top: 50px;
+
+}
+
+option{
+    font-size: 15px;
 }
 
 h2{
@@ -60,7 +70,6 @@ h2{
     margin-top: 50px;
    display: flex;
    justify-content: center;
-   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 nav{
@@ -71,11 +80,12 @@ nav{
   }
   
   #opciones{
-      display: grid;
-      grid-template-columns: repeat(4, 1fr);
+      display: flex;
+      flex-direction: row;
+     justify-content: flex-start;
       list-style: none;
       padding: 20px;
-
+     
   }
 
   
@@ -96,10 +106,11 @@ nav{
   }
   
   li:hover{
-      background-color: aqua;
+      background-color: rgb(190, 190, 190);
   }
   
   #volver{
-        margin-left: 50px;
+        display: flex;
+        justify-content: center;
   }
   

@@ -20,9 +20,9 @@
  footer{
     display: flex;
     justify-content: center;
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
     padding: 20px;
-   margin-top: 220px;
+    margin-top: 165px;
     
 }
 
@@ -33,17 +33,23 @@
 #desplegable {
     width: 250px;
     height: 50px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 input{
-    width: 150px;
+    width: 200px;
     height: 50px;
     margin-left: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
     
 }
 
 input:hover{
-   background-color: aqua;
+   background-color:rgb(190, 190, 190);
    cursor: pointer;
 }
 
@@ -57,8 +63,10 @@ input:hover{
 }
 
 h2{
+    font-size: 40px;
     margin-top: 50px;
-    margin-left: 550px;
+   display: flex;
+   justify-content: center;
 }
 
 nav{
@@ -93,6 +101,14 @@ a{
 }
 
 li:hover{
-    background-color: aqua;
+    background-color: rgb(190, 190, 190);
 }
 
+#volver{
+    display: flex;
+    justify-content: center;
+}
+
+option{
+    font-size: 15px;
+}
