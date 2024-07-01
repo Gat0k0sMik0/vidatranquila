@@ -1,0 +1,35 @@
+.popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    z-index: 1000;
+    width: 350%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: x-large;
+}
+
+.popup img {
+    width: 100px;
+}
+
+.popup h1 {
+    color: darkred;
+}
+
+popup p {
+    font-weight: lighter;
+}
+
+.none {
+    display: none;
+}

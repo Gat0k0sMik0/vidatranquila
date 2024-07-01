@@ -4,33 +4,67 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/index.css">
+    <link rel="stylesheet" href="CSS/popup.css">
     <title>Iniciar Sesion</title>
 </head>
 <body>
-    <h1 class="text">lo <br> mejor <br> Para <br> vos.</h1>
-    <main class="main">
-        <h1 class="titulo__principal__mobile">VIDA TRANQUILA</h1>
-        <form class="formulario" action="home.html" method="POST">
-            <h1 class="formulario__titulo__principal">VIDA TRANQUILA</h1>
+    <div id="overlay">
+        <h1 class="text">lo <br> mejor <br> Para <br> vos.</h1>
+        <main class="main">
+            <h1 class="titulo__principal__mobile">VIDA TRANQUILA</h1>
+            <form id="loginForm" class="formulario" action="home.html" method="POST">
+                <h1 class="formulario__titulo__principal">VIDA TRANQUILA</h1>
 
-            <h2 class="formulario__titulo">Inicio de sesión</h2>
-            <p class="formulario__parrafo">Ingrese sus datos</p>
-            <div class="formulario__grupo">
-                <input type="text" id="nombre_usuario" name="nombre" placeholder="Nombre" required>
-            </div>
+                <h2 class="formulario__titulo">Inicio de sesión</h2>
+                <p class="formulario__parrafo">Ingrese sus datos</p>
+                <div class="formulario__grupo">
+                    <input type="text" id="nombre_usuario" name="nombre" placeholder="Nombre" required>
+                </div>
 
-            <div class="formulario__grupo">
-                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
-            </div>
+                <div class="formulario__grupo">
+                    <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+                </div>
 
-            <div class="formulario__grupo">
-                <input type="text" id="dni" name="dni" placeholder="D.N.I." required>
-            </div>
+                <div class="formulario__grupo">
+                    <input type="text" id="dni" name="dni" placeholder="D.N.I." required>
+                </div>
 
-            <div class="formulario__grupo">
-                <button type="submit" class="boton">Ingresar</button>
-            </div>
-        </form>
-    </main>
+                <div class="formulario__grupo">
+                    <button type="submit" class="boton">Ingresar</button>
+                </div>
+            </form>
+        </main>
+    </div>
+
+
+    <!-- Popup -->
+    <div id="popup" class="popup none" >
+        <img src="img/peligro.png">
+        <h1>ERROR</h1>
+        <h3>Los datos ingresados no son correctos</h3>
+        <p>Asegurate de que tu D.N.I. sea correcto, quizas te equivocaste al escribirlo</p>
+        <p>Intenta otra vez</p>
+        <div class="formulario__grupo">
+            <button type="submit" class="boton" id="close-btn">Cerrar</button>
+        </div>
+    </div>
+
+    <script>
+        document.getElementById('loginForm').addEventListener('submit', function(event) {
+            var dni = document.getElementById('dni').value;
+            var dniRegex = /^\d+$/;
+            var popup = document.getElementById('popup');
+
+            if (!dniRegex.test(dni)) {
+                event.preventDefault();
+                popup.classList.remove('none');
+            }
+        });
+
+        document.getElementById('close-btn').addEventListener('click', function(event) {
+            var popup = document.getElementById('popup');
+            popup.classList.add('none');
+        });
+    </script>
 </body>
 </html>
