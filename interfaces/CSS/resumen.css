@@ -87,6 +87,7 @@ main {
 
     display: flex;
     flex-direction: column;
+    height: 350px;
 }
 
 h3{
@@ -125,7 +126,7 @@ option {
 }
 
 .botones{
-    margin-top: 0px;
+    margin-top: 80px;
 }
 
 .boton{
