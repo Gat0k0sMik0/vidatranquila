@@ -7,29 +7,44 @@
     <title>Principal</title>
 </head>
 <body>
-    <img id="logo" src="img/logo.png" alt="">
+    <header>
+        <nav class="nav">
+            <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
+            <h1 class="nombre">VIDA TRANQUILA</h1>
+            <h1 class="menu_principal">MENÚ PRINCIPAL</h1>
+        </nav>
+    </header>
 
-    <div  class="contenedor">
-        <h1>Sin esperas, sin complicaciones!</h1>
-        <p>Realiza tus tramites de la manera mas simple </p>
-            <p>y sin largas filas </p>
-      <div class="imagen"> <img class="jubilado" src="img/jubilado.jpg" alt=""></div> 
-    </div>
+    <main>
+        <div class="container">
+            <div  class="contenedor1 contenedor">
+                <h1>!Sin esperas, sin complicaciones!</h1>
+                <p>Realiza tus tramites </p>
+                <p>de la manera mas simple </p>
+                <p>y sin largas filas </p>
+            </div>
+            <div class="contenedor2 contenedor">
+                <h2>Seleccione la acción que desee realizar</h2>
+                <div id="botones">
+                    <ul class="opciones">
+                        <a class="boton" href="turno.html">TURNOS</a>
+                        <a class="boton" href="insumo.html"> INSUMOS</a>
+                        <a class="boton" href="estudios.html">ESTUDIOS CLINICOS</a>
+                        <a class="boton" href="autorizaciones.html"> AUTORIZACIONES</a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <div id="segundo-contenedor">
-        <h2>Seleccione la acción que desee realizar</h2>
-        <div id="botones">
-            <ul id="opciones">
-                <li> <a href="turno.html">TURNOS</a></li>
-                <li> <a href="insumo.html"> INSUMOS</a></li>
-                <li> <a href="estudios.html">ESTUDIOS CLINICOS</a></li>
-                <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
-                </ul>
-    </div>
+
+
     </div>
 
     <footer id="footer">
-        <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>
+        <p id="slogan">La obra social más eficaz para los <br class="mobile"> jubilados y pensionados de la Argentina</p>
+
     </footer>
 </body>
 </html>

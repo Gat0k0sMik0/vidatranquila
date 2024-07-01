@@ -175,7 +175,27 @@ footer{
     font-size: 20px;
 }
 
-@media(min-width:1000px) {
+@media(min-width:700px) {
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        scrollbar-color: #D2B48C white;
+    }
+
+    body{
+        background-image: url('../img/fondo-general.svg');
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+        height: 200px;
+    }
+
     .nav {
         background-color: #ffffffe3;
         display: flex;
