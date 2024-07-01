@@ -8,37 +8,41 @@
 </head>
 <body>
 
-  <header>
-<nav>
-   <a href="home.html"><img id="logo" src="img/logo.png" alt=""></a>
-   <ul id="opciones">
-    <li> <a href="turno.html">TURNOS</a></li>
-    <li> <a href="insumo.html"> INSUMOS</a></li>
-    <li> <a href="estudios.html">ESTUDIOS</a></li>
-    <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
-    </ul>
-</nav>
-</header>
+    <header>
+        <nav class="nav">
+          <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
+            <ul class="menu" >
+            <li> <a href="turno.html">TURNOS</a></li>
+            <li> <a href="insumo.html"> INSUMOS</a></li>
+            <li> <a href="estudios.html">ESTUDIOS</a></li>
+            <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+      <main>
+          <div class="formulario">
+            <h2>ELIGA EL LUGAR DONDE DESEA REALIZARSE EL ESTUDIO</h2>
 
-    <h2>Seleccione el lugar donde quiere realizarse el estudio</h2>
-
-<div id="buscador">
-    <select id="desplegable" name="desplegable" required>
-        <option value="">BUSCAR...</option>
-        <option value="ramos">Ramos Mejia 556</option>
-        <option value="sanjusto">San Justo 4563</option>
-        <option value="luzuriaga">Luzuriaga 630 </option>
-        <option value="lomas">Lomas Del Mirador 1200</option>
-    </select>
-    <a href="horario.html" id="boton"><input  id="boton" type="button" value="CONFIRMAR"></a>
-
-</div>
-
-<a href="turno.html" id="volver"><input  id="boton" type="button" value="VOLVER A ELEGIR ESPECIALIDAD"></a>
-
-   
-    <footer id="footer">
-        <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>
-    </footer>
+            <div id="buscador">
+                <select id="desplegable" name="desplegable" required>
+                    <option value="">BUSCAR...</option>
+                    <option value="ramos">Ramos Mejia 556</option>
+                    <option value="sanjusto">San Justo 4563</option>
+                    <option value="luzuriaga">Luzuriaga 630 </option>
+                    <option value="lomas">Lomas Del Mirador 1200</option>
+                </select>
+            </div>
+              <div class="botones">
+                  <a class="boton" id="volver" href="turno.html">VOLVER A ELEGIR ESPECIALIDAD</a>
+                  <a class="boton" id="continuar" href="horario.html">CONFIRMAR</a>
+              </div>
+          </div>
+      </main>
+    
+    
+      <footer id="footer">
+        <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina.</p>
+      </footer>
 </body>
 </html>

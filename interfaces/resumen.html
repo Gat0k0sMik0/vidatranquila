@@ -7,24 +7,36 @@
     <title>resumen</title>
 </head>
 <body>
-    <img id="logo" src="img/logo.png" alt="">
-    
-    <div class="card">
-        <h3>IMPORTANTE</h3>
-        <p id="importante">PRESENTARSE EL DIA DEL TURNO CON EL DNI Y CARNET DE LA OBRA SOCIAL.</p>
-
-        <div class="detalles">
-            <p>Lopez Maria, su turno para</p>
-            <p>Especialidad: Odontología</p>
-            <p>Lugar: Ramos Mejía 562</p>
-            <p>Día: 15 de Junio</p>
-            <p>Hora: 11:30</p>
-            <p>¡Fue confirmado exitosamente!</p>
+    <header>
+        <nav class="nav">
+          <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
+            <ul class="menu" >
+            <li> <a href="turno.html">TURNOS</a></li>
+            <li> <a href="insumo.html"> INSUMOS</a></li>
+            <li> <a href="estudios.html">ESTUDIOS</a></li>
+            <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
+            </ul>
+        </nav>
+      </header>
+      <main>
+        <div class="card">
+            <h3>IMPORTANTE</h3>
+            <p id="importante">PRESENTARSE EL DIA DEL TURNO CON EL DNI Y CARNET DE LA OBRA SOCIAL.</p>
+          <div id="contenedor">
+              <section id="detalles">
+                <p>Lopez Maria, su turno para</p>
+                <p>Especialidad: Odontología</p>
+                <p>Lugar: Ramos Mejía 562</p>
+                <p>Día: 15 de Junio</p>
+                <p>Hora: 11:30</p>
+                <p>¡Fue confirmado exitosamente!</p>
+              </section>
+          </div>
+            <div class="botones">
+                <a class="boton" id="continuar" href="home.html">CERRAR</a>
+            </div>
         </div>
-
-        <a href="home.html"><input type="button" value="Cerrar" class="cerrar-button"></a>
-    </div>
-
+    </main>
     
     <footer id="footer">
         <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>

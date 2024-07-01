@@ -9,53 +9,59 @@
 <body>
 
     <header>
-        <nav>
+        <nav class="nav">
           <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
-           <ul id="opciones">
+            <ul class="menu" >
             <li> <a href="turno.html">TURNOS</a></li>
             <li> <a href="insumo.html"> INSUMOS</a></li>
             <li> <a href="estudios.html">ESTUDIOS</a></li>
             <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
             </ul>
         </nav>
-    </header>
+      </header>
 
-    <h2>Seleccione  una  fecha y el horario </h2>
+      <main>
+        <div class="formulario">
+          <h2>SELECCIONE UNA FECHA Y HORARIO</h2>
 
-    <div class="horario">
-        
-        <div id="dia1">
-        <input type="radio" id="fecha1" name="fecha" value="Lunes 25 de Julio 11:30hs" required>
-        <label for="fecha1">Lunes 25 de Julio 11:30hs</label>
+          <div  id="horario">
+                <div id="dia1">
+                    <input type="radio" id="fecha1" name="fecha" value="Lunes 25 de Julio 11:30hs" required>
+                    <label for="fecha1">Lunes 25 de Julio 11:30hs</label>
+            
+                    <input type="radio" id="fecha2" name="fecha" value="Lunes 25 de Julio 12:00hs" required>
+                    <label for="fecha2">Lunes 25 de Julio 12:00hs</label>
+            
+                    <input type="radio" id="fecha3" name="fecha" value="Lunes 25 de Julio 12:30hs" required>
+                    <label for="fecha3">Lunes 25 de Julio 12:30hs</label>
 
-        <input type="radio" id="fecha2" name="fecha" value="Lunes 25 de Julio 12:00hs" required>
-        <label for="fecha2">Lunes 25 de Julio 12:00hs</label>
+                </div>
+            
+                <div id="dia2">
 
-        <input type="radio" id="fecha3" name="fecha" value="Lunes 25 de Julio 12:30hs" required>
-        <label for="fecha3">Lunes 25 de Julio 12:30hs</label>
+                    <input type="radio" id="fecha4" name="fecha" value="Martes 26 de Julio 11:30hs" required>
+                    <label for="fecha4">Martes 26 de Julio 11:30hs</label>
+            
+                    <input type="radio" id="fecha5" name="fecha" value="Martes 26 de Julio 12:00hs" required>
+                    <label for="fecha5">Martes 26 de Julio 12:00hs</label>
+                
+                </div>
+            
+                <div id="dia3">
+
+                    <input type="radio" id="fecha6" name="fecha" value="Miercoles 27 de Julio 8:30hs" required>
+                    <label for="fecha6">Miércoles 27 de Julio 8:30hs</label>
+                
+                </div>
+          </div>
+          <div class="botones">
+            <a class="boton" id="volver" href="localidad.html">VOLVER A ELEGIR HOSPITAL</a>
+            <a class="boton" id="continuar" href="resumen.html">CONFIRMAR</a>
         </div>
-
-        <div id="dia2">
-        <input type="radio" id="fecha4" name="fecha" value="Martes 26 de Julio 11:30hs" required>
-        <label for="fecha4">Martes 26 de Julio 11:30hs</label>
-
-        <input type="radio" id="fecha5" name="fecha" value="Martes 26 de Julio 12:00hs" required>
-        <label for="fecha5">Martes 26 de Julio 12:00hs</label>
         </div>
+    </main>
 
-        <div id="dia3">
-        <input type="radio" id="fecha6" name="fecha" value="Miercoles 27 de Julio 8:30hs" required>
-        <label for="fecha6">Miércoles 27 de Julio 8:30hs</label>
-        </div>
-       
-    </div>
-
-    <div id="botones">
-        <a href="localidad.html" id="volver"><input  id="boton" type="button" value="VOLVER A ELEGIR LUGAR"></a>
-        <a href="resumen.html" id="confirmar"><input id="boton" type="button" value="CONFIRMAR"></a>
-    </div>
-   
-
+    
     <footer id="footer">
         <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>
     </footer>
