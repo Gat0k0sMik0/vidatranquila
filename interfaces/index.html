@@ -7,26 +7,30 @@
     <title>Iniciar Sesion</title>
 </head>
 <body>
-    <img id="logo" src="img/logo.png" alt="">
-    <div class="login">
-        <h2>Iniciar Sesión</h2>
-        <form action="home.html">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" placeholder="ej: Maria" required>
+    <h1 class="text">lo <br> mejor <br> Para <br> vos.</h1>
+    <main class="main">
+        <h1 class="titulo__principal__mobile">VIDA TRANQUILA</h1>
+        <form class="formulario" action="home.html" method="POST">
+            <h1 class="formulario__titulo__principal">VIDA TRANQUILA</h1>
 
-            <label for="apellido">Apellido:</label>
-            <input type="text" id="apellido" name="apellido" placeholder="ej: Lopez"required>
-    
-            <label for="dni">DNI:</label>
-            <input type="number" id="dni" name="dni" placeholder="ej: 11223344" required>
-        <div id="boton">
-            <button type="submit">Ingresar</button>
-        </div>
+            <h2 class="formulario__titulo">Inicio de sesión</h2>
+            <p class="formulario__parrafo">Ingrese sus datos</p>
+            <div class="formulario__grupo">
+                <input type="text" id="nombre_usuario" name="nombre" placeholder="Nombre" required>
+            </div>
+
+            <div class="formulario__grupo">
+                <input type="text" id="apellido" name="apellido" placeholder="Apellido" required>
+            </div>
+
+            <div class="formulario__grupo">
+                <input type="text" id="dni" name="dni" placeholder="D.N.I." required>
+            </div>
+
+            <div class="formulario__grupo">
+                <button type="submit" class="boton">Ingresar</button>
+            </div>
         </form>
-    </div>
-
-    <footer id="footer">
-        <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>
-    </footer>
+    </main>
 </body>
 </html>

@@ -8,9 +8,9 @@
 </head>
 <body>
   <header>
-    <nav>
+    <nav class="nav">
       <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
-        <ul id="opciones">
+        <ul class="menu" >
         <li> <a href="turno.html">TURNOS</a></li>
         <li> <a href="insumo.html"> INSUMOS</a></li>
         <li> <a href="estudios.html">ESTUDIOS</a></li>
@@ -18,24 +18,30 @@
         </ul>
     </nav>
     </header>
-  
-  <h2>Elegi una especialidad</h2>
-<div id="buscador">
-        <select id="desplegable" name="desplegable" required>
-            <option value="">BUSCAR...</option>
-            <option value="odontologia">Odontologia</option>
-            <option value="medico">Medico clinico</option>
-            <option value="oftalmologia">Oftalmologia</option>
-            <option value="fisiatra">Fisiatra</option>
-        </select>
-  <a id="boton" href="localidad.html"><input type="button" value="CONFIRMAR"></a>
-</div>
 
-<a id="volver" href="home.html"><input type="button" value="VOLVER AL INICIO"></a>
+  <main>
+      <div class="formulario">
+          <h2>ELEGI UNA ESPECIALIDAD</h2>
+          <div id="buscador">
+              <select id="desplegable" name="desplegable"  required>
+                  <option value="" class="placeholder" selected disabled>Selecciona una opción</option>
+                  <option value="odontologia">ODONTOLOGÍA</option>
+                  <option value="medico">MÉDICO CLÍNICO</option>
+                  <option value="oftalmologia">OFTALMOLOGÍA</option>
+                  <option value="fisiatra">FISIATRA</option>
+              </select>
+          </div>
+          <div class="botones">
+              <a class="boton" id="volver" href="home.html">VOLVER AL INICIO</a>
+              <a class="boton" id="continuar" href="localidad.html">CONFIRMAR</a>
+          </div>
+      </div>
+  </main>
+
 
   <footer id="footer">
-    <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina</p>
-    </footer>
+    <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina.</p>
+  </footer>
 
 </body>
 </html>
