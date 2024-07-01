@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="CSS/localidad.css">
+    <title>Localidad</title>
+</head>
+<body>
+
+    <header>
+        <nav class="nav">
+          <a href="home.html"> <img id="logo" src="img/logo.png" alt=""></a>
+            <ul class="menu" >
+            <li> <a href="turno.html">TURNOS</a></li>
+            <li> <a href="insumo.html"> INSUMOS</a></li>
+            <li> <a href="estudios.html">ESTUDIOS</a></li>
+            <li> <a href="autorizaciones.html"> AUTORIZACIONES</a></li>
+            </ul>
+        </nav>
+      </header>
+    
+      <main>
+          <div class="formulario">
+            <h2>ELIGA LA FARMACIA DONDE VA A RETIRAR</h2>
+
+            <div id="buscador">
+                <select id="desplegable" name="desplegable" required>
+                    <option value="">BUSCAR...</option>
+                    <option value="ramos">FARMACIA BRINKMAN (Ramos Mejia 556)</option>
+                    <option value="sanjusto"> FARMACIA SINNI (San Justo 4563)</option>
+                    <option value="luzuriaga">FARMACIA PARIS (Luzuriaga 630) </option>
+                    <option value="lomas">CRUZ OESTE (Lomas Del Mirador 1200)</option>
+                </select>
+            </div>
+              <div class="botones">
+                  <a class="boton" id="volver" href="insumo.html">VOLVER A ELEGIR INSUMO</a>
+                  <a class="boton" id="continuar" href="resumenretiro.html">CONFIRMAR</a>
+              </div>
+          </div>
+      </main>
+    
+    
+      <footer id="footer">
+        <p id="slogan">La obra social más eficaz para los jubilados y pensionados de la Argentina.</p>
+      </footer>
+</body>
+</html>

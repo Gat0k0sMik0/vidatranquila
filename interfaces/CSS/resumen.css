@@ -120,10 +120,6 @@ h3{
     padding: 10px;
 }
 
-option {
-    font-size: 500px;
-
-}
 
 .botones{
     margin-top: 80px;
@@ -139,22 +135,21 @@ option {
 }
 
 
+
 #continuar {
     background-color: #D2B48C ;
-    color: #fff;
+    color: #030303;
     border: none;
 }
 
 #continuar:hover {
-    color: #D2B48C ;
+    color: #857561 ;
     background-color: #fff;
     border: none;
     cursor: pointer;
 }
 
-option{
-    font-size: 15px;
-}
+
 
 footer{
     grid-area: footer;
@@ -276,11 +271,6 @@ footer{
         padding: 10px;
     }
 
-    option {
-        font-size: 500px;
-
-    }
-
     .boton{
         margin-top: 25px;
         padding: 10px;
@@ -293,12 +283,12 @@ footer{
 
     #continuar {
         background-color: #D2B48C ;
-        color: #fff;
+        color: #030303;
         border: none;
     }
 
     #continuar:hover {
-        color: #D2B48C ;
+        color: #857561 ;
         background-color: #fff;
         border: none;
         cursor: pointer;

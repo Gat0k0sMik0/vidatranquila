@@ -157,14 +157,15 @@ option {
     cursor: pointer;
 }
 
+
 #continuar {
     background-color: #D2B48C ;
-    color: #fff;
+    color: #030303;
     border: none;
 }
 
 #continuar:hover {
-    color: #D2B48C ;
+    color: #857561 ;
     background-color: #fff;
     border: none;
     cursor: pointer;
@@ -317,18 +318,20 @@ footer{
         cursor: pointer;
     }
 
+   
     #continuar {
         background-color: #D2B48C ;
-        color: #fff;
+        color: #030303;
         border: none;
     }
 
     #continuar:hover {
-        color: #D2B48C ;
+        color: #857561 ;
         background-color: #fff;
         border: none;
         cursor: pointer;
     }
+
 
     h2{
         font-size: 40px;
